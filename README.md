@@ -1,5 +1,5 @@
 # erc1511_sample
-a erc1511 sample. could be deployed on all EVM-compatible blockchains. (bsc, polygon, ...).
+A erc1511 sample. could be deployed on all EVM-compatible blockchains. (bsc, polygon, ...)
 
 The sample erc1511 smart contract has 2 tokens(nfts) inside.
 
