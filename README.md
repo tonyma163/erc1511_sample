@@ -13,8 +13,11 @@ After the nft minted, the mintedNFT will automatically update the minted amount.
 
 # smart contract variables
 mint price = 0.001 ether
+
 mintedNFT = [0,0] //record the minted nft number
+
 nftMaxSupply = [5,5] //initialize the nfts maxSupplies
 
 enjoy :)
+
 Tony Ma 2022/08/05
