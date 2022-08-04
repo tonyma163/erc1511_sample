@@ -30,13 +30,13 @@ contract TokenName is ERC1155, Ownable {
 
         require(amount==1, "AMOUNT-ERROR.");
 
-        require(msg.value >= mintPrice, "NOT-ENOUGH-BNB.");
+        require(msg.value >= mintPrice, "NOT-ENOUGH-ETH/BNB/MATIC.");
 
         //mint
         _mint(account, id, amount, data);
 
         //update records
-        mintedNFT[id] = mintedNFT[id]+1;
+        mintedNFT[id] = mintedNFT[id]+amount;
     }
 
 }
